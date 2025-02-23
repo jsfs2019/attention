@@ -1,0 +1,13 @@
+name: attention_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pytorch
+  - torchvision
+  - torchaudio
+  - scikit-learn
+  - pip:
+    - datasets
+    - transformers 
