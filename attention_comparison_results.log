@@ -1,0 +1,267 @@
+
+测试 self Attention:
+
+使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6723
+Test Accuracy: 54.50%
+------------------------
+Epoch 2/10:
+Average Loss: 0.5586
+Test Accuracy: 67.00%
+------------------------
+Epoch 3/10:
+Average Loss: 0.4715
+Test Accuracy: 75.00%
+------------------------
+Epoch 4/10:
+Average Loss: 0.4351
+Test Accuracy: 76.00%
+------------------------
+Epoch 5/10:
+Average Loss: 0.3868
+Test Accuracy: 76.50%
+------------------------
+Epoch 6/10:
+Average Loss: 0.3796
+Test Accuracy: 78.50%
+------------------------
+Epoch 7/10:
+Average Loss: 0.3551
+Test Accuracy: 76.00%
+------------------------
+Epoch 8/10:
+Average Loss: 0.3060
+Test Accuracy: 76.50%
+------------------------
+Epoch 9/10:
+Average Loss: 0.3045
+Test Accuracy: 77.00%
+------------------------
+Epoch 10/10:
+Average Loss: 0.2916
+Test Accuracy: 76.50%
+------------------------
+
+不使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6300
+Test Accuracy: 82.50%
+------------------------
+Epoch 2/10:
+Average Loss: 0.3415
+Test Accuracy: 86.00%
+------------------------
+Epoch 3/10:
+Average Loss: 0.2099
+Test Accuracy: 88.50%
+------------------------
+Epoch 4/10:
+Average Loss: 0.1430
+Test Accuracy: 90.00%
+------------------------
+Epoch 5/10:
+Average Loss: 0.0970
+Test Accuracy: 88.00%
+------------------------
+Epoch 6/10:
+Average Loss: 0.0759
+Test Accuracy: 91.50%
+------------------------
+Epoch 7/10:
+Average Loss: 0.0531
+Test Accuracy: 90.00%
+------------------------
+Epoch 8/10:
+Average Loss: 0.0366
+Test Accuracy: 91.00%
+------------------------
+Epoch 9/10:
+Average Loss: 0.0355
+Test Accuracy: 89.50%
+------------------------
+Epoch 10/10:
+Average Loss: 0.0284
+Test Accuracy: 93.00%
+------------------------
+
+测试 atrous Attention:
+
+使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6785
+Test Accuracy: 49.50%
+------------------------
+Epoch 2/10:
+Average Loss: 0.5879
+Test Accuracy: 70.00%
+------------------------
+Epoch 3/10:
+Average Loss: 0.4708
+Test Accuracy: 68.50%
+------------------------
+Epoch 4/10:
+Average Loss: 0.4344
+Test Accuracy: 68.00%
+------------------------
+Epoch 5/10:
+Average Loss: 0.3987
+Test Accuracy: 71.00%
+------------------------
+Epoch 6/10:
+Average Loss: 0.3643
+Test Accuracy: 77.00%
+------------------------
+Epoch 7/10:
+Average Loss: 0.3379
+Test Accuracy: 77.00%
+------------------------
+Epoch 8/10:
+Average Loss: 0.3192
+Test Accuracy: 73.50%
+------------------------
+Epoch 9/10:
+Average Loss: 0.3110
+Test Accuracy: 79.00%
+------------------------
+Epoch 10/10:
+Average Loss: 0.2472
+Test Accuracy: 78.50%
+------------------------
+
+不使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6424
+Test Accuracy: 83.50%
+------------------------
+Epoch 2/10:
+Average Loss: 0.3638
+Test Accuracy: 85.00%
+------------------------
+Epoch 3/10:
+Average Loss: 0.2278
+Test Accuracy: 87.00%
+------------------------
+Epoch 4/10:
+Average Loss: 0.1826
+Test Accuracy: 86.50%
+------------------------
+Epoch 5/10:
+Average Loss: 0.1253
+Test Accuracy: 87.00%
+------------------------
+Epoch 6/10:
+Average Loss: 0.0987
+Test Accuracy: 87.50%
+------------------------
+Epoch 7/10:
+Average Loss: 0.0718
+Test Accuracy: 88.50%
+------------------------
+Epoch 8/10:
+Average Loss: 0.0492
+Test Accuracy: 87.00%
+------------------------
+Epoch 9/10:
+Average Loss: 0.0459
+Test Accuracy: 90.00%
+------------------------
+Epoch 10/10:
+Average Loss: 0.0255
+Test Accuracy: 89.00%
+------------------------
+
+测试 sparse Attention:
+
+使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6786
+Test Accuracy: 63.00%
+------------------------
+Epoch 2/10:
+Average Loss: 0.5853
+Test Accuracy: 73.50%
+------------------------
+Epoch 3/10:
+Average Loss: 0.4837
+Test Accuracy: 74.00%
+------------------------
+Epoch 4/10:
+Average Loss: 0.4577
+Test Accuracy: 77.00%
+------------------------
+Epoch 5/10:
+Average Loss: 0.4039
+Test Accuracy: 77.00%
+------------------------
+Epoch 6/10:
+Average Loss: 0.3791
+Test Accuracy: 75.00%
+------------------------
+Epoch 7/10:
+Average Loss: 0.3461
+Test Accuracy: 78.00%
+------------------------
+Epoch 8/10:
+Average Loss: 0.3216
+Test Accuracy: 78.50%
+------------------------
+Epoch 9/10:
+Average Loss: 0.2818
+Test Accuracy: 79.50%
+------------------------
+Epoch 10/10:
+Average Loss: 0.3194
+Test Accuracy: 78.50%
+------------------------
+
+不使用Position Embedding:
+Epoch 1/10:
+Average Loss: 0.6354
+Test Accuracy: 85.50%
+------------------------
+Epoch 2/10:
+Average Loss: 0.3248
+Test Accuracy: 83.00%
+------------------------
+Epoch 3/10:
+Average Loss: 0.2062
+Test Accuracy: 89.00%
+------------------------
+Epoch 4/10:
+Average Loss: 0.1331
+Test Accuracy: 90.00%
+------------------------
+Epoch 5/10:
+Average Loss: 0.1001
+Test Accuracy: 89.50%
+------------------------
+Epoch 6/10:
+Average Loss: 0.0907
+Test Accuracy: 89.00%
+------------------------
+Epoch 7/10:
+Average Loss: 0.0536
+Test Accuracy: 87.50%
+------------------------
+Epoch 8/10:
+Average Loss: 0.0446
+Test Accuracy: 89.50%
+------------------------
+Epoch 9/10:
+Average Loss: 0.0307
+Test Accuracy: 89.00%
+------------------------
+Epoch 10/10:
+Average Loss: 0.0190
+Test Accuracy: 89.00%
+------------------------
+
+最终结果比较:
+==================================================
+Attention类型  | 有Position Embedding | 无Position Embedding
+--------------------------------------------------
+self         |             78.50% |              93.00%
+atrous       |             79.00% |              90.00%
+sparse       |             79.50% |              90.00%
+==================================================
